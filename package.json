@@ -7,19 +7,19 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "@casl/ability": "^3.2.0",
-    "@casl/vue": "^0.4.3",
-    "vue": "^2.5.13",
-    "vue-router": "^3.0.1",
-    "vuetify": "^1.0.11",
-    "vuex": "^3.0.1"
+    "@casl/ability": "^4.1.5",
+    "@casl/vue": "^1.1.1",
+    "vue": "^2.6.11",
+    "vue-router": "^3.3.4",
+    "vuetify": "^2.3.1",
+    "vuex": "^3.4.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.0.5",
-    "@vue/cli-service": "^4.0.5",
-    "node-sass": "^4.13.0",
-    "sass-loader": "^8.0.0",
-    "vue-template-compiler": "^2.5.13"
+    "@vue/cli-plugin-babel": "^4.4.4",
+    "@vue/cli-service": "^4.4.4",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
   },
   "browserslist": [
     "> 1%",
