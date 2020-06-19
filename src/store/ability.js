@@ -9,7 +9,7 @@ export default (store) => {
       ability.update(mutation.payload.rules)
       break
     case 'destroySession':
-      ability.update([{ actions: 'read', subject: 'all' }])
+      ability.update([{ action: 'read', subject: 'all' }])
       break
     }
   })
