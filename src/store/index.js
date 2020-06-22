@@ -64,7 +64,12 @@ export const store = new Vuex.Store({
 
   actions: {
     login({ commit }, data) {
-      return http("/session", { method: "POST", data }).then((response) => commit("createSession", response.body));
+      return http("/session", { method: "POST", data })
+        .then((response) => {
+          console.log('LOGIN DATA: ', data);
+          console.log('LOGIN RESPONSE: ', response.body);
+          commit("createSession", response.body)
+        });
     },
 
     logout({ commit }) {
